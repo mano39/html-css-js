@@ -1,6 +1,12 @@
-body{
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing:border-box;
     margin:0;
     padding:0;
+    font-family: "Poppins", sans-serif;
 }
 
 header{
@@ -85,3 +91,79 @@ nav .icons i{
     margin-right:10px
 }
 
+.main-continer{
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    background:#F2F0F1;
+    
+}
+.main-continer .left-box {
+    width: 45%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-continer .left-box>h1{
+    font-size:50px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+    
+}
+.main-continer .left-box>p{
+    width:80%;
+    font-size: 14px;
+    margin-bottom:10px
+}
+
+.main-continer .left-box button{
+    font-size:18px;
+    padding:15px 0;
+    background:black;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:50px;
+    width:180px;
+    text-transform:capitalize 
+}
+
+.main-continer .left-box .sale-count{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 40px;
+    width: 80%;
+}
+.main-continer .left-box .sale-count h1{
+    font-size:25px;
+    margin:0 
+}
+.main-continer .left-box .sale-count p{
+    font-size:14px;
+    margin:0;
+  
+}
+.main-continer .right-box{
+    width: 45%;
+    height:90vh;
+}
+.main-continer .right-box img{
+    width: 100%;
+    height:100%;
+}
+
+section .brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:black;
+height:75px;
+}
+section .brands h1{
+    color:white;
+    font-size:25px;
+    text-transform:uppercase
+}
